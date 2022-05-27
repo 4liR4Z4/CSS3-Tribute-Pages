@@ -1,0 +1,236 @@
+/* HTML5 Tags */
+
+body {
+    background-color: slategray;
+    margin: 0;
+}
+
+hr {
+    border-style: none;
+    border-top: 8px slategray dotted;
+    width: 5%;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+    margin: 0;
+}
+
+/* Main ID */
+
+#main {
+    background-color: silver;
+    margin: 120px 100px 120px 100px;
+}
+
+/* Main ID - Head Section Elements */
+
+#head-section {
+    padding: 50px 40px 50px 40px;
+    position: relative;
+}
+
+.head-position-1 {
+    color: #041562;
+    position: absolute;
+    left: 600px;
+    top: 40px;
+}
+
+.head-position-2 {
+    text-align: justify;
+    position: absolute;
+    line-height: 1.5rem;
+    left: 600px;
+    top: 120px;
+    width: 45%;
+}
+
+.head-link {
+    color: #041562;
+    text-decoration: none;
+}
+
+.head-link:hover {
+    color: #FFE05D;
+    text-decoration: underline;
+}
+
+/* Main ID - Button Section Elements */
+
+#button {
+    position: relative;
+}
+
+.btn-1 {
+    color: silver;
+    background-color: #041562;
+    border-radius: 5%;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 22px 15px 22px;
+    position: absolute;
+    left: 675px;
+    top: 255px;
+}
+
+.btn-1:hover {
+    color: #041562;
+    background-color: #FFE05D;
+}
+
+.btn-2 {
+    color: silver;
+    background-color: #041562;
+    border-radius: 5%;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 22px 15px 22px;
+    position: absolute;
+    right: 145px;
+    top: 255px;
+}
+
+.btn-2:hover {
+    color: #041562;
+    background-color: #FFE05D;
+}
+
+/* Main ID - Forms Section */
+
+#form-section {
+    padding: 0 40px 345px 40px;
+    position: relative;
+}
+
+#form-section img {
+    width: 25%;
+}
+
+.form-head {
+    color: darkslategray;
+    font-weight: lighter;
+    position: absolute;
+    text-decoration: underline;
+    left: 42px;
+}
+
+.ssj {
+    position: absolute;
+    top: 108px;
+    left: 45px;
+}
+
+.ssj-text {
+    position: absolute;
+    top: 268px;
+    left: 115px;
+}
+
+.ssj-text:hover {
+    color: #FFE05D;
+}
+
+.ssj-blue {
+    position: absolute;
+    top: 108px;
+    left: 425px;
+}
+
+.ssj-blue-text:hover {
+    color: #0AA1DD;
+}
+
+.ssj-blue-text {
+    position: absolute;
+    top: 268px;
+    left: 480px;
+}
+
+.ssj-ui {
+    position: absolute;
+    top: 108px;
+    left: 808px;
+}
+
+.ssj-ui-text {
+    position: absolute;
+    top: 268px;
+    left: 830px;
+}
+
+.ssj-ui-text:hover {
+    color: #711A75;
+}
+
+/* Main ID - Fights Section */
+
+#fight-section {
+    padding: 0 40px 1315px 40px;
+    position: relative;
+}
+
+.fight-head {
+    color: darkslategray;
+    font-weight: lighter;
+    position: absolute;
+    text-decoration: underline;
+    left: 42px;
+}
+
+.fight-vid-1 {
+    position: absolute;
+    top: 108px;
+    right: 60px;
+}
+
+.fight-vid-text-1 {
+    color: #FFE05D;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    text-decoration: underline;
+    top: 260px;
+    left: 100px;
+}
+
+.fight-vid-2 {
+    position: absolute;
+    top: 520px;
+    left: 58px;
+}
+
+.fight-vid-text-2 {
+    color: #0AA1DD;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    top: 680px;
+    right: 100px;
+}
+
+.fight-vid-3 {
+    position: absolute;
+    top: 928px;
+    right: 60px;
+}
+
+.fight-vid-text-3 {
+    color: #711A75;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    text-decoration: underline;
+    top: 1080px;
+    left: 100px;
+}
